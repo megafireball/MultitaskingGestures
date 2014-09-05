@@ -89,7 +89,6 @@
     if ([self isTransitioning] == NO)
         [self setTransitioning:YES];
     [self _revealSlidingViewToHeight:[self _yValueForClosed]];
-    [self _setNCGrabberHidden:NO];
     [self _finishPresenting:NO completion:nil];
 }
 
